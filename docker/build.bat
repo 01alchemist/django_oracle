@@ -1,7 +1,6 @@
 @echo off
 set DIR=%~dp0
 set /a build =< "%DIR%\.build"
-echo Build:%build%
 set /a build=%build%+1
 echo Build:1.%build%
 
